@@ -291,10 +291,10 @@ related to that feature were removed:
 - `PHPExcel_CachedObjectStorage_SQLite3`
 - `PHPExcel_CachedObjectStorage_Wincache`
 
-In addition to that, `\PhpOffice\PhpSpreadsheet::getCellCollection()` was renamed
-to `\PhpOffice\PhpSpreadsheet::getCoordinates()` and
-`\PhpOffice\PhpSpreadsheet::getCellCacheController()` to
-`\PhpOffice\PhpSpreadsheet::getCellCollection()` for clarity.
+In addition to that, `\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getCellCollection()` was renamed
+to `\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getCoordinates()` and
+`\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getCellCacheController()` to
+`\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getCellCollection()` for clarity.
 
 Refer to [the new documentation](./memory_saving.md) to see how to migrate.
 
